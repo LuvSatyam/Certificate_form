@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Certificate Form</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+<h2>Certificate Form</h2>
+
+<form id="certificateForm">
+  <label for="course">Select Course:</label>
+  <select id="course" name="course" onchange="selectCourse()">
+    <option value="">Select a course</option>
+    <option value="course1">Course 1</option>
+    <option value="course2">Course 2</option>
+    <option value="course3">Course 3</option>
+    <option value="course4">Course 4</option>
+    <option value="course5">Course 5</option>
+    <option value="course6">Course 6</option>
+    <option value="course7">Course 7</option>
+    <option value="course8">Course 8</option>
+    <!-- Add more options for other courses -->
+  </select>
+  
+  <div id="subjectsContainer" style="display: none;">
+    <h3>Subjects</h3>
+  </div>
+  
+  <br>
+  <button type="submit" id="submit-btn">Submit</button>
+</form>
+
+
+<script src="app.js"></script>
+</body>
+</html>
